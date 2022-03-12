@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/vtec.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 1300px;
+}
+html{
+    font-size: 10px;
+}
+#baslik{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 10vh;
+    margin:0 auto;
+    top:19vh;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px 30px 0px 0px;
+    opacity: 0.9;
+}
+    .logo2{
+        position: relative;
+        top: 0px;
+    }
+#ortabolum{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 1000px;
+    top:20vh;
+    justify-content: space-evenly;
+    background-color: rgb(200, 200, 200);
+    border-radius: 0px 0px 30px 30px;
+    opacity: 0.9;
+}
+    .nsx img{
+        position: absolute;
+        left:5vh;
+        top: 5vh;
+    }
+    .h1baslik{
+        position: absolute;
+        top:5vh;
+        left:67vh;
+        font-size: 2.5rem;
+        font-family: "Archivo Black";
+        color: rgb(60, 60, 60);
+    }
+    .paragraf{
+        position: absolute;
+        top:10vh;
+        left:67vh;
+        line-height: 4vh;
+        margin-right: 5px;
+        font-size: 1.7rem;
+        font-family: "Archivo Black";
+        color: rgb(100, 100, 100);
+    }
+    .h1baslik2{
+        position: absolute;
+        top:34vh;
+        left:67vh;
+        font-size:2.5rem;
+        font-family: "Archivo Black";
+        color: rgb(60, 60, 60);
+    }
+    .h1baslik3{
+        position: absolute;
+        top:39vh;
+        left:67vh;
+        font-size:2.5rem;
+        font-family: "Archivo Black";
+        color: rgb(60, 60, 60);
+    }
+    .paragraf2{
+        position: absolute;
+        top:44vh;
+        left:67vh;
+        margin-right:5px;
+        line-height: 4vh;
+        font-size: 1.7rem;
+        font-family: "Archivo Black";
+        color: rgb(100, 100, 100);
+    }
+    .nsxmotor{
+        position: absolute;
+        top: 70vh;
+        left: 80vh;
+    }
+    .paragraf3{
+        position:absolute;
+        top:70vh;
+        left: 5vh;
+        font-size: 1.7rem;
+        font-family: "Archivo Black";
+        line-height:4vh;
+        color: rgb(100, 100, 100);
+    }

@@ -1,0 +1,51 @@
+/*anasayfa.html*/
+@media (max-width: 768px){
+    .logo{
+        width:25%;
+    }
+    .ortabaslik{
+        width: 75%;
+    }
+    .sosyalmedya{
+        position: relative;
+        float: right;
+        width: 15%;
+        top:30%;
+        right: 17%;
+    }
+        .facebook img{
+            border-radius: 0;
+        }
+        .twitter img{
+            border-radius: 0;
+        }
+    .ustbaslikyazi{
+        font-size: 1.5rem;
+    }
+    .iletisimyazi{
+        font-size: 1rem;
+        line-height: 3vh;
+    }
+    .otomobilkutu, .secimyapinkutu, .motosikletkutu, .arakutu{
+        box-shadow: 0 0 0;
+
+    }
+        .otomobilyazi, .secimyapin, input, .motosikletyazi{
+            font-size: 1.75vh;
+        }
+    .solsutun{
+        width: 50%;
+    }
+    .sagsutun{
+        position: relative;
+        top:2%;
+        right: 5%;
+        width: 50%;
+    }
+        .iletisimkutu{
+            width: 100%;
+        }
+    .dikeymenu ul li a{
+        font-size: 3vh;
+    }
+}

@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head runat="server">
+    <link href="/css/anasayfastil.css" rel="stylesheet" />
+    <link href="/css/tablet.css" rel="stylesheet" />
+    <link href="/css/mobile.css" rel="stylesheet" />
+    <title>Honda Türkiye</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div id="ustcontainer">
+            <div class="logo">
+                <img class="logo" src="images/logo.jpg" alt="Honda Logo" style="height: 20vh; width: 100%;" />
+            </div>
+            <div class="ortabaslik">
+                <div class="ustbaslik">
+                    <p class="ustbaslikyazi">The Power of Dreams</p>
+                </div>
+                <a class="otomobilyazi" href="otomobiller.html">
+                    <div class="otomobilkutu">Otomobil</div>
+                </a>
+                <div class="secimyapinkutu">
+                    <p class="secimyapin">Seçim Yapın</p>
+                </div>
+                <a class="motosikletyazi" href="motosikletler.html">
+                    <div class="motosikletkutu">Motosiklet</div>
+                </a>
+                <div class="arakutu"></i><input type="text" name="" id="searchBar" placeholder="Ara">
+                    <i class="fas fa-search"></i></div>
+            </div>
+            <div class="sosyalmedya">
+                <div class="sosyal1">
+                    <div class="facebook">
+                        <a href="https://tr-tr.facebook.com/HondaTR/"><img src="/images/facebook.jpg" alt="facebook"
+                                style="height: 10vh; width: 100%; margin-bottom: 0px" /></a>
+                    </div>
+                    <div class="ınstagram">
+                        <a href="https://www.instagram.com/hondatr/?hl=tr"><img src="/images/ınstagram.jpg"
+                                alt="instagram" style="height: 10vh; width: 100%" /></a>
+                    </div>
+                </div>
+                <div class="sosyal2">
+                    <div class="twitter">
+                        <a href="https://twitter.com/HondaTR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                                src="/images/twitter.jpg" alt="twitter"
+                                style="height: 10vh; width: 100%; margin-bottom: 0px" /></a>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://tr.linkedin.com/company/hondaturkiye"><img src="images/linkedin.jpg"
+                                alt="linkedin" style="height:10vh; width: 100%" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ortacontainer">
+            <div class="solsutun">
+                <div class="dikeymenu">
+                    <ul>
+                        <li><a href="dunyadahonda.html">Dünyada Honda</a></li>
+                        <li><a href="vizyonumuz.html">Vizyonumuz</a></li>
+                        <li><a href="">VTEC ve i-MMD</a>
+                            <ul>
+                                <li><a href="vtec.html">VTEC</a></li>
+                                <li><a href="i-mmd.html">i-MMD</a></li>
+                            </ul>
+                        </li>
+                </div>
+            </div>
+            <div class="sagsutun">
+                <a href="iletisim.html">
+                    <div class="iletisimkutu">
+                        <p class="iletisimyazi">Bizimle İletişime<br>Geçin</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="altcontainer">
+            <p class="altcontaineryazi">mehmetserkancetinkaya@gmail.com</p>
+        </div>
+    </form>
+</body>
+
+<script>
+    form = document.getElementById('form1')
+    input = document.getElementById('searchBar')
+    function searchSubmit(e) {
+        var ss = input.value
+        var host = window.location.protocol + '//' + window.location.host + '/';
+        console.log(host)
+        ss = ss.replace(/ /g, '')
+        e.preventDefault();
+        window.location.href = host + ss + '.html'
+    }
+    form.addEventListener('submit', searchSubmit);
+</script>
+</html>

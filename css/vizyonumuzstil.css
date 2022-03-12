@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/vtec.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 2000px;
+}
+html{
+    font-size: 10px;
+}
+#baslik{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 10vh;
+    margin:0 auto;
+    top:19vh;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px 30px 0px 0px;
+    opacity: 0.9;
+}
+    .logo2{
+        position: relative;
+        top: 0px;
+    }
+#ortabolum{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 1600px;
+    top:20vh;
+    justify-content: space-evenly;
+    background-color: rgb(200, 200, 200);
+    border-radius: 0px 0px 30px 30px;
+    opacity: 0.9;
+}
+    .sabitbolum{
+        position: fixed;
+        width: 41%;
+        margin:0;
+        padding: 0%;
+        left: 20vh;
+        height: 300px;
+    }
+    .baslik1{
+        position: absolute;
+        left:5vh;
+        top:5vh;
+        font-size: 2.5rem;
+        font-family:"Archivo Black";
+        color: #e31f2e;
+    }
+    .paragraf1{
+        position: absolute;
+        top: 12vh;
+        left: 5vh;
+        font-size: 1.7rem;
+        font-family:"Archivo Black";
+        line-height: 3vh;
+        color: rgb(60, 60, 60);
+    }
+    .baslik2{
+        position:absolute;
+        top:5vh;
+        left:85vh;
+        font-size: 2.5rem;
+        font-family:"Archivo Black";
+        color: #e31f2e;
+    }
+    .paragraf2{
+        position: absolute;
+        top: 12vh;
+        left: 85vh;
+        margin-right: 3vh;
+        font-size: 1.7rem;
+        font-family:"Archivo Black";
+        line-height: 3vh;
+        color: rgb(60, 60, 60);
+    }
+    .baslik3{
+        position:absolute;
+        top:45vh;
+        left:85vh;
+        font-size: 2.2rem;
+        font-family:"Archivo Black";
+        color: #e31f2e;
+    }
+    .paragraf3{
+        position: absolute;
+        top: 50vh;
+        left: 85vh;
+        margin-right: 3vh;
+        font-size: 1.7rem;
+        font-family:"Archivo Black";
+        line-height: 3vh;
+        color: rgb(60, 60, 60);
+    }
+    .baslik4{
+        position:absolute;
+        top:75vh;
+        left:85vh;
+        font-size: 2.5rem;
+        font-family:"Archivo Black";
+        color: #e31f2e;
+    }
+    .paragraf4{
+        position: absolute;
+        top: 80vh;
+        left: 85vh;
+        margin-right: 3vh;
+        font-size: 1.7rem;
+        font-family:"Archivo Black";
+        line-height: 3vh;
+        color: rgb(60, 60, 60);
+    }
+    .baslik5{
+        position:absolute;
+        top:112vh;
+        left:85vh;
+        font-size: 2.5rem;
+        font-family:"Archivo Black";
+        color: #e31f2e;
+    }
+    .paragraf5{
+        position: absolute;
+        top: 117vh;
+        left: 85vh;
+        margin-right: 3vh;
+        font-size: 1.7rem;
+        font-family:"Archivo Black";
+        line-height: 3vh;
+        color: rgb(60, 60, 60);
+    }
+    .baslik6{
+        position:absolute;
+        top:160vh;
+        left:85vh;
+        font-size: 2.5rem;
+        font-family:"Archivo Black";
+        color: #e31f2e;
+    }
+    .paragraf6{
+        position: absolute;
+        top: 165vh;
+        left: 85vh;
+        margin-right: 3vh;
+        font-size: 1.7rem;
+        font-family:"Archivo Black";
+        line-height: 3vh;
+        color: rgb(60, 60, 60);
+    }

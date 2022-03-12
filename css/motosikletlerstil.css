@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/cbrwallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+html{
+    font-size: 10px;
+}
+#baslik{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 10vh;
+    margin:0 auto;
+    top:19vh;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0px;
+    opacity:0.95;
+}
+    .logo2{
+        position: relative;
+        top: 7.5px;
+    }
+#ortabolum{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 36vh;
+    top:20vh;
+    justify-content: space-evenly;
+    background-color: rgb(100,100,100);
+    border-radius: 0px;
+    opacity: 0.9;
+}
+#ortabolum:hover{
+    opacity:1;
+}
+    .motosikletbox{
+        position: relative;
+        width: 16%;
+        height:16%;
+        top:5vh;
+    }

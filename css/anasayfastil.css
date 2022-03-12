@@ -1,0 +1,319 @@
+﻿body {
+    margin:0;
+    padding:0;
+    background-image: url(/images/civicfoto.jpg);
+    background-repeat:no-repeat;/*arka plan resmi tekrar etmesin, birden fazla olmasın diye*/
+    background-size:cover;/*arka plan resmi tüm sayfayı kaplasın diye*/
+    background-attachment:fixed;/*Arka plan resmi kaymasın diye*/
+    height: 100vh;
+}
+/*----------------------------------------------*/
+#ustcontainer{
+    width:100%;
+    height:150px;/*150px=20vh yap her yerde*/
+    position:fixed;
+    z-index: 1;
+}
+    .logo{
+        display:inline;
+        float:left;
+        width:20%;
+        height:20vh;/*150px*/
+    }
+    .ortabaslik{
+        display: inline;
+        float:left;
+        width:70%;
+        height:20vh;
+    }
+        .ustbaslik{
+            display: inline;
+            margin:0px;
+            padding:0px;
+            float:left;
+            text-align: center;
+            width:100%;
+            height:10vh;/*10vh=75px yap her yerde*/
+            line-height: 10vh;
+            background-color:white;
+            transition:color 0.5s,background-color 0.5s;
+        }
+            .ustbaslikyazi{
+                display:block;
+                margin: 0px;
+                font-size: 5vh;/*250%*/
+                letter-spacing: 1px;
+                font-family:"Archivo Black";
+                color:rgb(80,80,80);
+            }
+            /*.ustbaslik:hover, .ustbaslik:hover p{
+                background-color:rgb(130, 160, 180);
+                color:white;
+            }*/
+        .otomobilkutu{
+            display: inline;
+            margin:0px;
+            padding:0px;
+            float:left;
+            width:25%;
+            height:10vh;
+            background-color:rgb(60,60,60);
+            transition:color 1s,background-color 0.5s;
+            box-shadow: 5px 5px 5px black;
+        }
+            .otomobilyazi{
+                display: block;
+                text-align: center;
+                line-height: 10vh;/*75px*/
+                color: rgb(200,200,200);
+                font-size: 3vh;/*150%*/
+                text-decoration: none;
+                font-family: "Archivo Black";
+           }
+            .otomobilkutu:hover, .otomobilkutu:hover a{
+                background-color:rgb(200,200,200);
+                color:rgb(60,60,60) ;
+            }
+        .secimyapinkutu{
+            display: inline;
+            margin:0px;
+            padding:0px;
+            float:left;
+            text-align: center;
+            width:25%;
+            height:10vh;/*75px*/
+            line-height: 10vh;/*75px*/
+            background-color:rgb(80,80,80);
+            box-shadow: 5px 5px 5px black;
+        }
+            .secimyapin{
+                display: block;
+                margin: 0px;
+                font-size:3vh;/*150%*/
+                font-family: "Archivo Black";
+                color:rgb(200,200,200);
+            }
+        .motosikletkutu{
+            display: inline;
+            margin:0px;
+            padding:0px;
+            float:left;
+            width:25%;
+            height:10vh;/*75px*/
+            background-color:rgb(60,60,60);
+            transition:color 1s,background-color 0.5s;
+            box-shadow: 5px 5px 5px black;
+        }
+            .motosikletyazi{
+                text-align: center;
+                line-height: 10vh;/*75px*/
+                color: rgb(200,200,200);
+                font-size: 3vh;/*150%*/
+                text-decoration: none;
+                font-family: "Archivo Black";
+            }
+            .motosikletkutu:hover, .motosikletkutu:hover a{
+                background-color: rgb(200,200,200);
+                color:rgb(60,60,60);
+            }
+        .arakutu{
+            display: inline;
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            width: 25%;
+            height: 10vh;
+            box-shadow: 0px 5px 0px black;
+        }    
+            input{
+                float: left;
+                position: relative;
+                display: inline;
+                border:none;
+                outline: 0;
+                width: 95%;
+                height:10vh;/*75px*/
+                margin:0%;                
+                padding: 0%;
+                padding-left: 5%;
+                font-size: 3vh;/*150%*/
+                font-family: "Archivo Black";
+                color: rgb(200,200,200);
+                background-color: rgb(80,80,80);
+                transition: 0.5s;
+            }
+            /*input:hover,:focus{
+                background-color: rgb(200,200,200);
+                color:rgb(60,60,60);
+            }*/
+    .sosyalmedya{
+        display: inline;
+        float:left;
+        width:10%;
+        height:20vh;
+    }
+        .sosyal1{
+            float:left;
+            width:100%;
+            height:10vh;
+        }
+           .facebook{
+                float:left;
+                width:50%;
+                height:10vh;
+                background-color: white;
+           }
+                .facebook img{
+                    width:100%;
+                    height:10vh;
+                    border-radius:35px 0px 0px 0px;
+                }
+           .ınstagram{
+                float:right;
+                width:50%;
+                height:10vh;
+           }
+                .ınstagram img{
+                    width:100px;
+                    height:10vh;
+                }
+        .sosyal2{
+            float: left;
+            width: 100%;
+            height: 10vh;
+            box-shadow: 5px 5px 5px black;
+        }
+            .twitter{
+                float:left;
+                width:50%;
+                height:10vh;
+                background-color:rgb(80,80,80) ;
+            }
+                .twitter img{
+                    width:100%;
+                    height:10vh;
+                    border-radius:0px 0px 0px 35px;
+                }
+            .linkedin{
+                float:right;
+                width:50%;
+                height:10vh;
+            }
+                .linkedin img{
+                    width:100%;
+                    height:10vh;
+                }
+/*----------------------------------------------------*/                
+#ortacontainer{
+    float: right;
+    width:100%;
+    height:540px;/*540px*/
+    position: relative;
+    top:20vh;
+}
+    .solsutun{
+        position: relative;
+        float: left;
+        width: 20%;
+        height:70vh;
+        
+    }
+        .dikeymenu{
+            float: left;
+            width: 100%;
+            height: auto;
+            background-color: rgb(60,60,60);
+            box-shadow: 5px 5px 5px black;
+        }
+        .dikeymenu ul{
+            list-style-type: none;
+            margin:0%;
+            padding: 0px;
+        }
+        .dikeymenu ul li{
+            position: relative;
+            display: block;
+            text-align: center;
+            box-shadow: 1px 1px 0px black;
+        }
+        .dikeymenu ul li a{
+            text-decoration: none;
+            color: rgb(200,200,200);
+            display: block;
+            padding: 4vh;/*30px*/
+            font-size: 3vh;/*130%*/
+            transition:color 1s,background-color 0.5s;
+            font-family: "Archivo Black";
+        }
+        .dikeymenu ul li a:hover{
+            background-color: rgb(200,200,200);
+            color:rgb(60,60,60);
+        }
+        .dikeymenu ul li ul{
+            display: none;/*arastırılacak*/
+            position: absolute;/*araştırılacak*/
+            width: 100%;
+            /*top:0px;*//*vtec ve i mmd sekmelerini sağa kaydırmamızı sağladı*/
+            /*left: 100%;*//*vtec ve i mmd sekmelerini sağa kaydırmamızı sağladı*/
+            box-shadow: 5px 5px 5px black;
+        }
+        .dikeymenu ul li:hover ul{
+            display:block;
+            background-color: rgb(60,60,60);
+            color:rgb(200,200,200);
+        }
+    .sagsutun{
+        float: right;
+        width:20% ;
+        height: 70vh;
+        position:relative;
+    }    
+        .iletisimkutu{
+            position:absolute;
+            top:219.8px;
+            right:10%;
+            left:10%;
+            display:inline;
+            margin:0%;
+            float:left;
+            width:80%;
+            height:auto;/*100px*/
+            background-color:rgb(60,60,60);
+            transition:color 1s,background-color 0.5s;
+            box-shadow:5px 5px 5px black;
+        }
+            .iletisimkutu:hover,.iletisimyazi:hover{
+                background-color: rgb(200,200,200);
+                color:rgb(60,60,60);
+            }
+            .iletisimyazi{
+                margin: 0%;
+                padding: 3vh;
+                text-align: center;
+                line-height: 4vh;
+                color: rgb(200,200,200);
+                font-size: 3vh;/*150%*/
+                text-decoration: none;
+                font-family: "Archivo Black";
+                transition:color 1s,background-color 0.5s;
+            }
+/*-------------------------------------------------------*/
+#altcontainer{
+    display: inline;
+    position: fixed;
+    top: 690px;
+    float:left;
+    width:100%;
+    height:64px;/*64px*/
+    background-color:rgb(130, 160, 180);
+    z-index: 1;
+}
+    .altcontaineryazi{
+        display: inline;
+        line-height:64px;
+        margin-left: 50px;
+        color: rgb(80,80,80);
+        font-size: 100%;
+        text-decoration: none;
+        font-family: "Archivo Black";
+    }
