@@ -4,8 +4,11 @@ Honda Türkiye Websitesi denemesidir. HTML,CSS ve Javascript dilleri kullanılm�
 Bu projede; Flex-Flexbox, Responsive Tasarım ve Media Query kullanılmıştır.
 # Proje Görselleri
 Ana Sayfa Görünümü
+
 ![image](https://user-images.githubusercontent.com/84331784/158017806-b658d203-efcd-4204-8127-6eb20d1f6a5f.png)
+
 Araç Sayfası Görünümü
+
 ![image](https://user-images.githubusercontent.com/84331784/158017836-02171912-6399-402e-bdfd-490f8277aff8.png)
 ![image](https://user-images.githubusercontent.com/84331784/158017981-3fa63767-b3f1-41b2-abaa-b69d92d85ba1.png)
 Arama Çubuğu
